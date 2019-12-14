@@ -11,6 +11,9 @@
             .question{
                 color:tomato;
             }
+            p{
+                color: #80fef6;
+            }
         </style>
     </head>
      <body>The amazing world of music
@@ -78,7 +81,7 @@
              </li>
           </ol>
           <p>Moving on to the albums</p>
-          <ol class="muzica">
+          <ol class="artist">
               <li>
                   WHEN WE ALL FALL ASLEEP WHERE DO WE GO?
               </li>
@@ -104,10 +107,10 @@
           <p>Last but not least, my favourite genre is Alternative Rock</p>
     </section>
     <script>
-        var qelement= document.querySelector('muzica');
-        var qelements = document.querySelectorAll('.muzica');
-        var query =document.querySelector('genre');
-        var querys=document.querySelectorAll('#genre');
+        var qelement= document.querySelector(".muzica");
+        var qelements = document.querySelectorAll("ul.artist li:first-of-type");
+        var query =document.querySelector("#genre");
+        var querys=document.querySelectorAll("#genre");
         console.log(qelements);
         console.log(query);
         console.log(qelements);
